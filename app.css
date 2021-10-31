@@ -1,0 +1,37 @@
+/* Rem defining attributes */
+/* 
+Color palette
+#a8216b - 25%
+#ec1b4b -
+#f26a44
+#f7db69
+#2e9598 - 50% 
+*/
+
+:root {
+	background-color: #2e9598;
+	font-size: 62.5%;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 80rem;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.container > * {
+	width: 100%;
+}
