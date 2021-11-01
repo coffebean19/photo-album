@@ -35,3 +35,8 @@ Color palette
 .container > * {
 	width: 100%;
 }
+
+input {
+	height: 3rem;
+	width: 20rem;
+}
