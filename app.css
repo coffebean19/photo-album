@@ -21,6 +21,9 @@ Color palette
 	color: #333;
 }
 
+
+/* Container */
+
 .container {
 	width: 100vw;
 	height: 100vh;
@@ -36,7 +39,18 @@ Color palette
 	width: 100%;
 }
 
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Utilities */
+
 input {
 	height: 3rem;
 	width: 20rem;
+	border: 0 solid #aaa;
+	border-radius: 2px;
+	margin-bottom: 2rem;
+	padding: 1rem;
 }
