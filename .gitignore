@@ -1,0 +1,2 @@
+#Ignore the node_modules folder so we do not exceed like 500GB of storage
+node_modules

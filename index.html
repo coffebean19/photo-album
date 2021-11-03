@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <div id="login">
+        <div id="login-container" class="card">
             <form id="login-form" class="flex-column">
                 <input 
                     type="text"
@@ -27,14 +27,27 @@
 
                 <div id="sign-container">
                     <div id="sign-container-left">
-                        <button>This is a button</button>
+                        <button 
+                            type="submit"
+                            class="btn" 
+                            onclick="login"
+                            id="login"
+                            >This is a button</button>
                     </div>    
                     <div id="sign-contaier-right">
-                        <button>This is another button</button>
+                        <button
+                            type="submit"
+                            class="btn"
+                            onclick="signup"
+                            id="signup">This is another button</button>
                     </div>
                 </div>
             </form>
         </div>
     </div>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script> 
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="login.js"></script>
 </body>
 </html>
